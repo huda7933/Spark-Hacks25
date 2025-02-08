@@ -1,6 +1,10 @@
 import React from 'react';
-import './spark-hacks25/data.json'
-import './SignUp.css';
+
+import './Login.css';
+
+import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 import {
   MDBBtn,
@@ -9,6 +13,10 @@ import {
   MDBCol,
   MDBInput
 }from 'mdb-react-ui-kit';
+
+
+
+
 
 function App() {
   return (
@@ -52,7 +60,12 @@ function App() {
 
             <div className="text-center pt-1 mb-5 pb-1">
               <p className="text-muted black-text">Don't have an account?</p>
-              <MDBBtn className="gradient-outline">Create an account for your business.</MDBBtn>
+              <Link to="./SignUp">
+                <MDBBtn className="gradient-outline" tag="a" href='spark-hacks25\src\Pages\LogInSignup\SignUp.jsx'>
+                  Create an account for your business.
+                </MDBBtn>
+
+              </Link>
             </div>
 
           </div>
@@ -80,9 +93,4 @@ function App() {
   );
 }
 
-function verify(name){
-    return (
-        name
-    );
-}
 export default App;

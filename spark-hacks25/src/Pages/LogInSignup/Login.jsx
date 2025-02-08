@@ -2,6 +2,10 @@ import React from 'react';
 
 import './Login.css';
 
+import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
+
 import {
   MDBBtn,
   MDBContainer,
@@ -10,11 +14,9 @@ import {
   MDBInput
 }from 'mdb-react-ui-kit';
 
-//Link to sign up page
 
-const SignUp = () => {
-  navigate('/SignUp.jsx');
-};
+
+
 
 function App() {
   return (
@@ -58,7 +60,12 @@ function App() {
 
             <div className="text-center pt-1 mb-5 pb-1">
               <p className="text-muted black-text">Don't have an account?</p>
-              <MDBBtn className="gradient-outline" onClick={SignUp}>Create an account for your business.</MDBBtn>
+              <Link to="./SignUp">
+                <MDBBtn className="gradient-outline" tag="a" href='spark-hacks25\src\Pages\LogInSignup\SignUp.jsx'>
+                  Create an account for your business.
+                </MDBBtn>
+
+              </Link>
             </div>
 
           </div>
