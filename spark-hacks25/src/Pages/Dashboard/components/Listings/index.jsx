@@ -3,28 +3,28 @@ import './index.css';
 
 const listingData = [
     {
-        title: 'Git',
-        level: 'Advance',
+        title: 'Food',
+        level: 'Coffee grounds',
         date: '2nd Jan 2023',
         status: 'Completed'
     },
     {
-        title: 'React',
-        level: 'Advance',
+        title: 'Whiteboard',
+        level: 'Office Supplies',
         date: '9th April 2023',
         status: 'Pending',
     },
     {
-        title: 'MongoDB',
-        level: 'Advance',
+        title: 'Materials',
+        level: 'Glass jars',
         date: '5th June 2023',
-        status: 'Interested',
+        status: 'Pending',
     },
     {
-        title: 'Angular',
-        level: 'Beginner',
+        title: 'Plastic',
+        level: 'Stars',
         date: '7th July 2023',
-        status: 'Interested',
+        status: 'Pending',
     },
     {
         title: 'CSS',
