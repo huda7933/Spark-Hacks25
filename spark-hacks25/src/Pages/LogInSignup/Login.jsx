@@ -60,12 +60,12 @@ function App() {
 
             <div className="text-center pt-1 mb-5 pb-1">
               <p className="text-muted black-text">Don't have an account?</p>
-              <Link to="/signup">
+              
                 <MDBBtn className="gradient-outline" >
                   Create an account for your business.
                 </MDBBtn>
 
-              </Link>
+              
             </div>
 
           </div>
