@@ -1,9 +1,8 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import "./index.css"
 
-const TestScheduleComponent = () => {
+const TransactionHistory = () => {
     const testItems = [
         {
             title: 'React Test ',
@@ -25,7 +24,7 @@ const TestScheduleComponent = () => {
 
     return (
         <div className='shadow bg-light p-3 h-100'>
-            <h5 className='fw-bold'>Test Schedule</h5>
+            <h5 className='fw-bold'>Transaction History</h5>
             {testItems.map((item, index) => (
                 <div key={index} className="test-div row d-flex align-items-center">
                     <div className="col-md-4">
@@ -45,4 +44,4 @@ const TestScheduleComponent = () => {
     );
 };
 
-export default TestScheduleComponent;
+export default TransactionHistory;
