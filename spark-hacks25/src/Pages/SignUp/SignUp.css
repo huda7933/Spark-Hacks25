@@ -1,61 +1,62 @@
 .gradient-box {
-    background: linear-gradient(to right, #00c6ff, #0072ff); 
-    border-radius: 5px; /* round corners*/
-    color: white; /* txt  */
-    padding: 10px 20px; 
-    font-size: 16px; 
-    transition: background 0.3s ease; 
-}
-
-.long-gradient-box {
   background: linear-gradient(to right, #00c6ff, #0072ff); 
-  border-radius: 5px;
-  color: white; 
-  padding:5px 100px;
+  border-radius: 5px; /* round corners*/
+  color: white; /* txt  */
+  padding: 10px 20px; 
   font-size: 16px; 
   transition: background 0.3s ease; 
 }
 
+.long-gradient-box {
+background: linear-gradient(to right, #00c6ff, #0072ff); 
+border-radius: 5px;
+color: white; 
+padding:5px 100px;
+font-size: 16px; 
+transition: background 0.3s ease; 
+}
+
 .gradient-outline {
-  background: transparent; 
-  border: 2px solid #0072ff; 
-  color: #0072ff; 
-  border-radius: 5px; 
-  padding: 10px 20px; 
-  font-size: 16px; 
-  transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Add smooth transitions */
+background: transparent; 
+border: 2px solid #0072ff; 
+color: #0072ff; 
+border-radius: 5px; 
+padding: 10px 20px; 
+font-size: 16px; 
+transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Add smooth transitions */
 }
 .gradient-outline:hover{
-  background: #0072ff; 
-  color: white; 
-  border-color: #0072ff; 
+background: #0072ff; 
+color: white; 
+border-color: #0072ff; 
 }
 
 .gradient-box:hover{
-  background: #0072ff; 
-  color: white; 
-  border-color: #0072ff; 
+background: #0072ff; 
+color: white; 
+border-color: #0072ff; 
 }
-  
-  @media (min-width: 768px) {
-    .gradient-form {
-      height: 100vh !important;
-    }
-  }
-  @media (min-width: 769px) {
-    .gradient-custom-2 {
-      border-top-right-radius: .3rem;
-      border-bottom-right-radius: .3rem;
-    }
-  }
 
-  .black-text {
-    color: black;
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
   }
-  .gray-text{
-    color: gray;
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
   }
-  .gray-text-link:hover {
-    color: #007bff;
-    cursor: pointer;
-  }
+}
+
+.black-text {
+  color: black;
+}
+.gray-text{
+  color: gray;
+  font-size: 50px;
+}
+.gray-text-link:hover {
+  color: #007bff;
+  cursor: pointer;
+}
