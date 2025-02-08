@@ -1,0 +1,19 @@
+/* index.css */
+pre {
+    white-space: pre;
+    display: block;
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: auto; /* x y scrollnig */
+    max-height: 500px; /* scrolling max */
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+}
+
+.bell-icon {
+    font-size: 20px;
+}
