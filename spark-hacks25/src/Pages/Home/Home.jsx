@@ -68,7 +68,7 @@ const Home = () => {
     <button className="bg-black text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 transition-colors">
         Dashboard
     </button>
-    </Link>
+    </Link> 
 
       {/* Side Menu */}
       <div className="menu" id="menu">
@@ -76,6 +76,7 @@ const Home = () => {
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#contact">Contact</a>
+        <a href='#Sign Up'>Sign Up</a>
       </div>
 
       
