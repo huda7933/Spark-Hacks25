@@ -13,7 +13,7 @@ import {
 //Link to sign up page
 
 const SignUp = () => {
-  navigate('/SignUp');
+  navigate('/SignUp.jsx');
 };
 
 function App() {
