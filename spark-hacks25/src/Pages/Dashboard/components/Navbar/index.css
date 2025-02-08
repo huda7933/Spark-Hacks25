@@ -1,5 +1,5 @@
 nav {
-    background-color: #0096ff;
+    background-color: #BDD8C1;
     color: white;
     width: 60%;
     height: 100vh;
@@ -17,10 +17,10 @@ nav {
   }
   
   .navbar-nav .nav-item:hover a {
-    color: #0096ff;
+    color: white;
   }
   
   .navbar-nav .nav-item a {
-    color: white;
+    color: black;
   }
   

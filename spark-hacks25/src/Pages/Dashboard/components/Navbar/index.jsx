@@ -4,7 +4,7 @@ import "./index.css";
 
 const VerticalNavbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="vertical-navbar d-flexx flex-column">
             <ul className="navbar-nav">
                 <li className="nav-item"><a className="nav-link" href="#">Dashboard</a></li>
                 <li className="nav-item"><a className="nav-link" href="#">My Courses</a></li>
