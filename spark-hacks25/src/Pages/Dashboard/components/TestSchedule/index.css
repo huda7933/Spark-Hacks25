@@ -1,0 +1,17 @@
+.test-div {
+    margin-bottom: 20px;
+}
+
+.test-div p {
+    margin: 0;
+}
+
+.test_details {
+    font-size: 0.9em;
+    color: #555;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+}
