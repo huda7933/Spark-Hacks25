@@ -4,8 +4,8 @@ pre {
     background-color: black;
     padding: 10px;
     border-radius: 8px;
-    overflow: auto; /* Enable both horizontal and vertical scrolling */
-    max-height: 500px; /* Set a maximum height for vertical scrolling */
+    overflow: auto; 
+    max-height: 500px; 
 }
 
 .table th,

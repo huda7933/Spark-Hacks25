@@ -5,7 +5,7 @@ import Body from './components/Body';
 
 function App() {
     return (
-        <div className='d-flex'>
+        <div className='app-container d-flex'>
             <VerticalNavbar />
             <Body />
         </div>
