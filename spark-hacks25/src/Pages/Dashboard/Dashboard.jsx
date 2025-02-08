@@ -3,7 +3,7 @@ import './Dashboard.css';
 import VerticalNavbar from './components/Navbar';
 import Body from './components/Body';
 
-function App() {
+function Dashboard() {
     return (
         <div className='d-flex'>
             <VerticalNavbar />
@@ -12,4 +12,4 @@ function App() {
     );
 }
 
-export default App;
+export default Dashboard;
