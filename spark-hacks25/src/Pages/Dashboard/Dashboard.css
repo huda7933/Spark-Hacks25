@@ -1,2 +1,13 @@
+pre {
+            white-space: pre;
+            display: block;
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            overflow: auto; 
+
+}
+
 * {margin: 0;padding: 0;box-sizing: border-box;}
 
+    
