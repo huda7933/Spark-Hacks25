@@ -15,7 +15,7 @@ const Body = () => {
     return (
         <div className='w-100 course-wrapper'>
             <Header />
-            <h4 className='mx-3 d-block'>Welcome Back, John</h4>
+            <h4 className='mx-3 d-block'>Welcome Back, Aqualink</h4>
             <div className='d-flex justify-content-around'>
                 <div>
                     <div className='d-flex gap-5 mt-4'>

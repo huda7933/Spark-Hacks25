@@ -27,8 +27,8 @@ const listingData = [
         status: 'Pending',
     },
     {
-        title: 'CSS',
-        level: 'Intermediate',
+        title: 'Food',
+        level: 'Coffee grounds',
         date: '2nd Feb 2023',
         status: 'Completed',
     },

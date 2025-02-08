@@ -16,7 +16,7 @@ const TransactionHistory = () => {
             description: '8th Jan 2023, 2pm to 4pm',
         },
         {
-            title: 'MongoDB',
+            title: 'Cardboard boxes',
             description: '12th Jan 2023, 10am to 12pm',
         },
     ];
