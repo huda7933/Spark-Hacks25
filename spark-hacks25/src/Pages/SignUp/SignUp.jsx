@@ -27,43 +27,8 @@ const handleSignUp = (e) => {
   console.log("Signup email:", email, "Business Name:", Bname, "password:", password);
 };
 
-function App() {
-  return (
-    <div>
-      <h2>Sign Up</h2>
-      <form onSubmit={handleSignUp}>
-        <input 
-          type="email"
-          placeholder='Enter Email'
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required />
-      
-        <input 
-          type="Bname"
-          placeholder='Enter Official Business Name'
-          value={Bname}
-          onChange={(e) => setName(e.target.value)}
-          required />
-
-        <input 
-          type="password"
-          placeholder='Enter password'
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required />
-        
-        <input 
-          type="password"
-          placeholder='Confirm password'
-          value={confirmPassword}
-          onChange={(e) => setConfirmPassword(e.target.value)}
-          required />
-        <button type="submit">Verify Your Business</button>
-      </form>
-    </div>
-  );
-  
+function Register() {
 }
+ 
 
-export default App;
+export default Register;
