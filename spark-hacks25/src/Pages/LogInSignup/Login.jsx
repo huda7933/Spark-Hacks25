@@ -10,6 +10,12 @@ import {
   MDBInput
 }from 'mdb-react-ui-kit';
 
+//Link to sign up page
+
+const SignUp = () => {
+  navigate('/SignUp');
+};
+
 function App() {
   return (
     <MDBContainer className="my-5 gradient-form" style={{ backgroundColor: '#f0f0f0' }}>
@@ -52,7 +58,7 @@ function App() {
 
             <div className="text-center pt-1 mb-5 pb-1">
               <p className="text-muted black-text">Don't have an account?</p>
-              <MDBBtn className="gradient-outline">Create an account for your business.</MDBBtn>
+              <MDBBtn className="gradient-outline" onClick={SignUp}>Create an account for your business.</MDBBtn>
             </div>
 
           </div>
